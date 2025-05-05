@@ -3,6 +3,7 @@ import Counter from './components/Counter/Counter';
 import LightSwitch from './components/LightSwitch/LightSwitch';
 import Greeting from './components/Greeting/Greeting';
 import Gallery from './components/Gallery/Gallery';
+import UserList from './components/UserList/UserList';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Counter /> */}
       {/* <LightSwitch></LightSwitch> */}
       {/* <Greeting></Greeting> */}
-      <Gallery></Gallery>
+      {/* <Gallery></Gallery> */}
+      <UserList></UserList>
     </div>
   );
 }
